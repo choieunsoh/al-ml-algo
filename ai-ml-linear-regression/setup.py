@@ -1,10 +1,10 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 setup(
     name='ai-ml-linear-regression',
     version='0.1.0',
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Kiattipong Kamonrat',
+    author_email='kiattipong.kamonrat@gmail.com',
     description='A project for linear regression analysis with simulated data.',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
